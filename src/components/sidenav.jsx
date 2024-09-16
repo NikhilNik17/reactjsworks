@@ -6,7 +6,7 @@ function sidenav() {
     <div className='sidenavbar'> 
         <ui>
             <li>Home</li>
-            <li>Services</li>
+            <Link to='/tv'><li>Products</li></Link>
             <li>Contact Us</li>
             <li>AboutUs</li>
         </ui>

@@ -2,15 +2,15 @@ import React from 'react'
 import {productsData} from '../data/products'
 import { Link } from 'react-router-dom'
 
-function phones() {
+function tv() {
   return (
-    <div className='maindata'>
+    <div className='maindata2'>
         {
             productsData.map((e)=>{
                 return(
                     
                     <div className='productdata'>
-                    <Link to={`/phones/${e. id}`}>
+                    <Link to={`/tv/${e.id}`}>
                         <img src={e.image} alt="" />
                         
                         <p>Brand Name:{e.name}</p>
@@ -27,4 +27,4 @@ function phones() {
   )
 }
 
-export default phones
+export default tv
