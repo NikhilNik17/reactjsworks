@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/NikhilNik17/reactjsworks/static/css/main.d74cb030.css",
-    "main.js": "/NikhilNik17/reactjsworks/static/js/main.f317dc66.js",
-    "static/js/453.785134cd.chunk.js": "/NikhilNik17/reactjsworks/static/js/453.785134cd.chunk.js",
-    "static/media/tvsam.jpeg": "/NikhilNik17/reactjsworks/static/media/tvsam.e610cf0ac3aebc8b1036.jpeg",
-    "index.html": "/NikhilNik17/reactjsworks/index.html",
-    "main.d74cb030.css.map": "/NikhilNik17/reactjsworks/static/css/main.d74cb030.css.map",
-    "main.f317dc66.js.map": "/NikhilNik17/reactjsworks/static/js/main.f317dc66.js.map",
-    "453.785134cd.chunk.js.map": "/NikhilNik17/reactjsworks/static/js/453.785134cd.chunk.js.map"
+    "main.css": "/reactjsworks/static/css/main.f3545b28.css",
+    "main.js": "/reactjsworks/static/js/main.4f490f60.js",
+    "static/js/453.785134cd.chunk.js": "/reactjsworks/static/js/453.785134cd.chunk.js",
+    "static/media/tvsam.jpeg": "/reactjsworks/static/media/tvsam.e610cf0ac3aebc8b1036.jpeg",
+    "index.html": "/reactjsworks/index.html",
+    "main.f3545b28.css.map": "/reactjsworks/static/css/main.f3545b28.css.map",
+    "main.4f490f60.js.map": "/reactjsworks/static/js/main.4f490f60.js.map",
+    "453.785134cd.chunk.js.map": "/reactjsworks/static/js/453.785134cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d74cb030.css",
-    "static/js/main.f317dc66.js"
+    "static/css/main.f3545b28.css",
+    "static/js/main.4f490f60.js"
   ]
 }
