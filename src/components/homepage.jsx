@@ -9,7 +9,7 @@ import { Col, Row } from 'react-bootstrap'
 
 function homepage() {
   return (
-    <div>
+    <div className='homepage'>
        <Row>
     <Col sm={2}>
     <Sidenav />
