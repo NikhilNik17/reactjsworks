@@ -13,13 +13,13 @@ function productlist() {
     <Col sm={10}>
     <div className='buttonsprolis'>
     <Link to='/phones'><button>Iphones</button></Link>
-    <br></br>
+    
     <Link to='/tv'><button>Tv</button></Link>
-    <br></br>
+    
     <button>Refrigerator</button>
-    <br></br>
+    
     <button>Washing Machine</button>
-    <br></br>
+    
     <button>Air Conditioner</button>
     </div>
     

@@ -55,7 +55,15 @@ overflow-x: hidden;
 
 
 
-.buttonsprolis button{
+.buttonsprolis{
   display: flex;
-  color: aqua;
+  color:gray
+  
+}
+.buttonsprolis button{
+  margin-right: 30px;
+  margin-left: 60px;
+  margin-top: 300px;
+  width: 100px;
+  height: 100px;
 }

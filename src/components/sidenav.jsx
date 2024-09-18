@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom'
 function sidenav() {
   return (
     <div className='sidenavbar'> 
-        <ui>
+        <ul>
             <Link to='/homepage'><li>Home</li></Link>
             <Link to='/productlist'><li>Products</li></Link>
             <li>Contact Us</li>
             <li>AboutUs</li>
-        </ui>
+            
+        </ul>
         <Link to='/Login'> <button>Logout</button></Link>
     </div>
   )
