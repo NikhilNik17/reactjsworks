@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Tv from './pages/tv'
 import Home from './components/home'
 import Homepage from './components/homepage'
+import Productlist from './pages/productlist'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/phones' element={<Phones />} />
         <Route path='/tv' element={<Tv />} />
+        <Route path='/productlist' element={<Productlist />} />
         
       </Routes>
     </Router>
