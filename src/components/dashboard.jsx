@@ -2,6 +2,7 @@ import React from 'react'
 import Sidenav from './sidenav'
 import Phones from '../pages/phones'
 import { Col, Row } from 'react-bootstrap'
+import Homepage from './homepage'
 
 function dashboard() {
   return (

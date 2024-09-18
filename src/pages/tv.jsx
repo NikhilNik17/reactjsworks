@@ -1,15 +1,23 @@
 import React from 'react'
-import {productsData} from '../data/products'
+import { tvData } from '../data/tvdata'
 import { Link } from 'react-router-dom'
+import { Col, Row } from 'react-bootstrap'
+import Sidenav from '../components/sidenav'
 
 function tv() {
   return (
+    <Row>
+    <Col sm={2}>
+    <Sidenav />
+    </Col>
+
+<Col sm={10}>
     <div className='maindata2'>
         {
-            productsData.map((e)=>{
+            tvData.map((e)=>{
                 return(
                     
-                    <div className='productdata'>
+                    <div className=' tvData '>
                     <Link to={`/tv/${e.id}`}>
                         <img src={e.image} alt="" />
                         
@@ -24,6 +32,8 @@ function tv() {
             })
         }
     </div>
+    </Col>
+    </Row>
   )
 }
 

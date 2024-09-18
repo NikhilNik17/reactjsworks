@@ -13,31 +13,42 @@ overflow-x: hidden;
  
 
 }
-
-
-
 .sidenavbar{
   height: 100vh;
   background-color: antiquewhite;
   width: 200px;
+  position: fixed;
 }
 .maindata{
-  height: 100vh;
-  width: 1000px;
+
+ 
   display: flex;
   flex-wrap: wrap;
   
   
 }
-
 .productdata{
-  height: 400px;
-  width: 350px;
-  padding: 10%;
+  height: 300px;
+  width: 250px;
+  
   border: 2px solid #111111;
 }
-
 .productdata img{
+  height: 200px;
+  width: 100%;
+}
+.maindata2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tvData{
+  height: 300px;
+  width: 250px;
+  
+  border: 2px solid #111111;
+}
+.tvData img{
   height: 200px;
   width: 100%;
 }

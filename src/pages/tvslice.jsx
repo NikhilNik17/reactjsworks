@@ -1,13 +1,12 @@
 import React from 'react'
 import Sidenav from './sidenav'
 import { Col, Row } from 'react-bootstrap'
-import {productsData} from '../data/products'
+import {tvData} from '../data/tvdata'
 import { Link } from 'react-router-dom'
-import Tv from '../pages/tv'
 
 
 function home() {
-  const NewData=productsData.slice(0,4)
+  const NewData=tvData.slice(0,4)
   return (
     <div >
       
@@ -27,7 +26,7 @@ function home() {
 
                })     
               }
-              <Link to='/tv'> <p>View More</p> </Link> 
+              <Link to='/'> <p>View More</p> </Link> 
           </div>
         
 
@@ -39,7 +38,3 @@ function home() {
 
 
 export default home
-
-
-
-
