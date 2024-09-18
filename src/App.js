@@ -10,6 +10,7 @@ import Tv from './pages/tv'
 import Home from './components/home'
 import Homepage from './components/homepage'
 import Productlist from './pages/productlist'
+import Iphonecases from './pages/iphonecases'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/phones' element={<Phones />} />
         <Route path='/tv' element={<Tv />} />
         <Route path='/productlist' element={<Productlist />} />
+        <Route Path='/iphonecases' element={<Iphonecases />} />
         
       </Routes>
     </Router>

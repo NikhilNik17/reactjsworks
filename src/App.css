@@ -68,7 +68,12 @@ overflow-x: hidden;
   height: 100px;
   box-shadow: 0 4px 8px rgba(25, 153, 222, 0.77);
 }
-.homepage{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
- 
+.loginpage{
+  margin-top: 200px;
+  margin-left: 550px;
+  height: 100px;
+  width: 100%;
+  background-color: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), ;
+  background-color: rgb(34,193,195);
+  background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }

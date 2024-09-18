@@ -4,6 +4,7 @@ import Home from './home'
 import Tvslice from '../pages/tvslice'
 import Sidenav from './sidenav'
 import { Col, Row } from 'react-bootstrap'
+import Casesslice from '../pages/casesslice'
 
 
 
@@ -19,6 +20,8 @@ function homepage() {
    <Home />
    <br></br>
    <Tvslice />
+   <br></br>
+   <Casesslice />
    </Col>
    </Row>
   

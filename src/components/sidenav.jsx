@@ -11,7 +11,7 @@ function sidenav() {
             <li>AboutUs</li>
             
         </ul>
-        <Link to='/Login'> <button>Logout</button></Link>
+        <Link to='/reactjsworks'> <button>Logout</button></Link>
     </div>
   )
 }
