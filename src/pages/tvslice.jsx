@@ -1,8 +1,7 @@
 import React from 'react'
-import Sidenav from './sidenav'
-import { Col, Row } from 'react-bootstrap'
 import {tvData} from '../data/tvdata'
 import { Link } from 'react-router-dom'
+import Tv from './tv'
 
 
 function home() {
@@ -26,7 +25,7 @@ function home() {
 
                })     
               }
-              <Link to='/'> <p>View More</p> </Link> 
+              <Link to='/tv'> <p>View More</p> </Link> 
           </div>
         
 

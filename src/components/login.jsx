@@ -13,7 +13,7 @@ function login() {
 </br>
 <input type='password' placeholder='Enter Your Password'></input>
 <br></br>
-<Link to='/dashboard'><button>Login</button></Link>
+<Link to='/homepage'><button>Login</button></Link>
 <p>Dont Have An Account</p><Link to='/signup'><button>Sign Up</button></Link>
     </div>
   )

@@ -1,12 +1,18 @@
 import React from 'react'
 import {productsData} from '../data/products'
 import { Link } from 'react-router-dom'
+import { Col, Row } from 'react-bootstrap'
+import Sidenav from '../components/sidenav'
 
 
 function phones() {
   return (
+    <Row>
+    <Col sm={2}>
+    <Sidenav />
+    </Col>
 
-   
+   <Col sm={10}>
     <div className='maindata'>
         {
             productsData.map((e)=>{
@@ -27,6 +33,8 @@ function phones() {
             })
         }
     </div>
+    </Col>
+    </Row>
    
                     
   )

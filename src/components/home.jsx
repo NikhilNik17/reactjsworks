@@ -4,6 +4,7 @@ import { Col, Row } from 'react-bootstrap'
 import {productsData} from '../data/products'
 import { Link } from 'react-router-dom'
 import Tv from '../pages/tv'
+import Phones from '../pages/phones'
 
 
 function home() {
@@ -27,7 +28,7 @@ function home() {
 
                })     
               }
-              <Link to='/tv'> <p>View More</p> </Link> 
+              <Link to='/phones'> <p>View More</p> </Link> 
           </div>
         
 
