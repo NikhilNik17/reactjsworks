@@ -1,8 +1,8 @@
 import React from 'react'
-import { casesData  } from '../data/casesdata'
-import { Link } from 'react-router-dom'
 import { Col, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Sidenav from '../components/sidenav'
+import { casesData } from '../data/casesdata'
 
 function iphonecases() {
   return (
@@ -18,7 +18,7 @@ function iphonecases() {
                 return(
                     
                     <div className=' casesdata2 '>
-                    <Link to={`/tv/${e.id}`}>
+                    <Link to={`/iphonecases/${e.id}`}>
                         <img src={e.image} alt="" />
                         
                         <p>Brand Name:{e.name}</p>

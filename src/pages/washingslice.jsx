@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { casesData } from '../data/casesdata'
+import { wmData } from '../data/washingdata'
 
 
-function casesslice() {
-  const NewData=casesData.slice(0,4)
+
+function home() {
+  const NewData=wmData.slice(0,4)
   return (
     <div >
       
-          <div className="dash maindata2">
+          <div className="dashmaindata23">
               {
                NewData.map((e)=>{
                 return(
-                  <div className='productdata2'>
+                  <div className='productdata10'>
                     <img src={e.image} alt="" />
                     <p>{e.id}</p>
                     <p>{e.name}</p>
@@ -24,7 +25,7 @@ function casesslice() {
 
                })     
               }
-              <Link to='/iphonecases'> <p>View More</p> </Link> 
+              <Link to='/washingmachine'> <p>View More</p> </Link> 
           </div>
         
 
@@ -35,4 +36,4 @@ function casesslice() {
 
 
 
-export default casesslice
+export default home

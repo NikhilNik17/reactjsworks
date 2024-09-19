@@ -1,8 +1,8 @@
 import React from 'react'
-import { tvData } from '../data/tvdata'
-import { Link } from 'react-router-dom'
 import { Col, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Sidenav from '../components/sidenav'
+import { tvData } from '../data/tvdata'
 
 function tv() {
   return (

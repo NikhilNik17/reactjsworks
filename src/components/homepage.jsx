@@ -1,10 +1,10 @@
 import React from 'react'
-import Phones from '../pages/phones'
-import Home from './home'
-import Tvslice from '../pages/tvslice'
-import Sidenav from './sidenav'
 import { Col, Row } from 'react-bootstrap'
 import Casesslice from '../pages/casesslice'
+import Tvslice from '../pages/tvslice'
+import Washingslice from '../pages/washingslice'
+import Home from './home'
+import Sidenav from './sidenav'
 
 
 
@@ -20,6 +20,8 @@ function homepage() {
    <Home />
    <br></br>
    <Tvslice />
+   <br></br>
+   <Washingslice />
    <br></br>
    <Casesslice />
    </Col>

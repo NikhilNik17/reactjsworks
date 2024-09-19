@@ -1,16 +1,16 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import './App.css'
-import Login from './components/login'
 import Dashboard from './components/dashboard'
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
-import Signup from './components/signup'
-import Phones from './pages/phones'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Tv from './pages/tv'
-import Home from './components/home'
 import Homepage from './components/homepage'
-import Productlist from './pages/productlist'
+import Login from './components/login'
+import Signup from './components/signup'
 import Iphonecases from './pages/iphonecases'
+import Phones from './pages/phones'
+import Productlist from './pages/productlist'
+import Tv from './pages/tv'
+import Washingmachine from './pages/washingmachine'
 
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
         <Route path='/tv' element={<Tv />} />
         <Route path='/productlist' element={<Productlist />} />
         <Route Path='/iphonecases' element={<Iphonecases />} />
+        <Route Path='/washingmachine' element={<Washingmachine />} />
         
       </Routes>
     </Router>
