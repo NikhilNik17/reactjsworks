@@ -1,11 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import Acslice from '../pages/acslice'
 import Casesslice from '../pages/casesslice'
 import Tvslice from '../pages/tvslice'
 import Washingslice from '../pages/washingslice'
 import Home from './home'
 import Sidenav from './sidenav'
-
 
 
 function homepage() {
@@ -21,7 +21,11 @@ function homepage() {
    <br></br>
    <Tvslice />
    <br></br>
+   <Acslice />
+   
+   <br></br>
    <Washingslice />
+   
    <br></br>
    <Casesslice />
    </Col>

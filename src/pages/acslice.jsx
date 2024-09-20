@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { tvData } from '../data/tvdata'
+import { acData } from '../data/acdata'
 
 
 function home() {
-  const NewData=tvData.slice(0,4)
+  const NewData=acData.slice(0,4)
   return (
     <div >
       
@@ -24,7 +24,7 @@ function home() {
 
                })     
               }
-              <Link to='/tv'> <p>View More</p> </Link> 
+              <Link to='/ac'> <p>View More</p> </Link> 
           </div>
         
 
