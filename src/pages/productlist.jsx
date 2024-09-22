@@ -16,11 +16,11 @@ function productlist() {
     
     <Link to='/tv'><button>Tv</button></Link>
     
-    <button>Refrigerator</button>
+    <Link to='/ac'><button>Air Conditioner</button></Link>
     
-    <button>Washing Machine</button>
+    <Link to='/washingmachine'><button>Washing Machine</button></Link>
     
-    <button>Air Conditioner</button>
+    <Link to='/iphonecases'><button>Phone Cases</button></Link>
     </div>
     
    </Col>

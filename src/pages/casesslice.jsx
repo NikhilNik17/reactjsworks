@@ -8,11 +8,11 @@ function casesslice() {
   return (
     <div >
       
-          <div className="dash maindata2">
+          <div className="dash maindata">
               {
                NewData.map((e)=>{
                 return(
-                  <div className='productdata2'>
+                  <div className='productdata'>
                     <img src={e.image} alt="" />
                     <p>{e.id}</p>
                     <p>{e.name}</p>

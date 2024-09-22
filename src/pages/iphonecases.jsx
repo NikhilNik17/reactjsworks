@@ -12,12 +12,12 @@ function iphonecases() {
     </Col>
 
 <Col sm={10}>
-    <div className='maindata3'>
+    <div className='maindata2'>
         {
             casesData.map((e)=>{
                 return(
                     
-                    <div className=' casesdata2 '>
+                    <div className=' tvData '>
                     <Link to={`/iphonecases/${e.id}`}>
                         <img src={e.image} alt="" />
                         

@@ -9,11 +9,11 @@ function home() {
   return (
     <div >
       
-          <div className="dashmaindata23">
+          <div className="dash maindata">
               {
                NewData.map((e)=>{
                 return(
-                  <div className='productdata10'>
+                  <div className='productdata'>
                     <img src={e.image} alt="" />
                     <p>{e.id}</p>
                     <p>{e.name}</p>

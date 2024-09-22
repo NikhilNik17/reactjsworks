@@ -6,10 +6,10 @@ import Dashboard from './components/dashboard'
 import Homepage from './components/homepage'
 import Login from './components/login'
 import Signup from './components/signup'
-import Iphonecases from './pages/iphonecases'
 import Phones from './pages/phones'
 import Productlist from './pages/productlist'
 import Tv from './pages/tv'
+import Ac from './pages/ac'
 import Washingmachine from './pages/washingmachine'
 
 
@@ -25,9 +25,12 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/phones' element={<Phones />} />
         <Route path='/tv' element={<Tv />} />
+        <Route path='/ac' element={<Ac />} />
         <Route path='/productlist' element={<Productlist />} />
-        <Route Path='/iphonecases' element={<Iphonecases />} />
-        <Route Path='/washingmachine' element={<Washingmachine />} />
+        <Route path='/washingmachine' element={<Washingmachine />} />
+        <Route path='/iphonecases' element={<Iphonecases />} />
+      
+        
         
       </Routes>
     </Router>

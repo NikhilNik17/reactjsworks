@@ -2,9 +2,9 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Sidenav from '../components/sidenav'
-import { acData } from '../data/acdata'
+import {acData } from '../data/acdata'
 
-function ac() {
+function tv() {
   return (
     <Row>
     <Col sm={2}>
@@ -17,7 +17,7 @@ function ac() {
             acData.map((e)=>{
                 return(
                     
-                    <div className=' acData '>
+                    <div className=' tvData '>
                     <Link to={`/ac/${e.id}`}>
                         <img src={e.image} alt="" />
                         
@@ -37,4 +37,4 @@ function ac() {
   )
 }
 
-export default ac
+export default tv

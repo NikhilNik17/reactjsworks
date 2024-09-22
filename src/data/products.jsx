@@ -1,5 +1,4 @@
 import Img from '../assets/15pro.jpeg'
-import Image from '../assets/tvsam.jpeg'
 import Img2 from '../assets/iphone11.jpeg'
 import Img3 from '../assets/iphone12.jpeg'
 import Img4 from '../assets/iphone13.jpeg'
@@ -148,14 +147,7 @@ export const productsData = [
         Price : 124000,
 
     },
-    {
-        id : 1 ,
-        name : 'Samsung Tv',
-        image : Image,
-        Price : 134000,
-
-    },
-
+   
 ]
 export const tvdata =[
     

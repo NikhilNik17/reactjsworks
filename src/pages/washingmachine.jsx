@@ -12,12 +12,12 @@ function washingmachine() {
     </Col>
 
 <Col sm={10}>
-    <div className='maindata22'>
+    <div className='maindata2'>
         {
-            wmData.map((e)=>{
+           wmData.map((e)=>{
                 return(
                     
-                    <div className=' wmData23 '>
+                    <div className=' tvData '>
                     <Link to={`/tv/${e.id}`}>
                         <img src={e.image} alt="" />
                         
