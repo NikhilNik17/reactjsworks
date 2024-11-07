@@ -11,6 +11,7 @@ import Productlist from './pages/productlist'
 import Tv from './pages/tv'
 import Ac from './pages/ac'
 import Washingmachine from './pages/washingmachine'
+import Iphonecases from './pages/iphonecases'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/productlist' element={<Productlist />} />
         <Route path='/washingmachine' element={<Washingmachine />} />
         <Route path='/iphonecases' element={<Iphonecases />} />
+
       
         
         
